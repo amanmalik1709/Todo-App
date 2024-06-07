@@ -100,12 +100,14 @@ button:active {
     padding: 40px;
     padding-right: 10px;
     margin-top: 7px;
+    cursor: pointer;
 }
 
 .tasktext {
     font-size: 25px;
     padding: 40px;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .task_list {
@@ -115,7 +117,7 @@ button:active {
 }
 
 ul li input:checked + span {
-    text-decoration: line-through;
+    text-decoration: line-through black;
 }
 
 .cross {
@@ -130,8 +132,10 @@ ul li input:checked + span {
     justify-content: center;
     border-radius: 50%;
     margin-right: 100px;
+
 }
 
 .cross:hover {
     background-color: lightgrey;
+    cursor: pointer;
 }
